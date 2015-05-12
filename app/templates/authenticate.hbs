@@ -1,3 +1,16 @@
-<input type="email">
-<input type="password">
-<button type="submit">Log in</button>
+{{#x-form on-submit="authenticate"}}
+  <input type="email" name="email" placeholder="Email">
+  <input type="password" name="password" placeholder="Password">
+
+  <button type="submit" disabled={{model.isLoading}}>
+    {{#if model.isLoading}}
+      Logging in…
+    {{else}}
+      Log in
+    {{/if}}
+  </button>
+
+  {{#if model.error}}
+    <p>{{model.error}}</p>
+  {{/if}}
+{{/x-form}}
