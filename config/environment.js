@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'code-club',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    firebase: 'https://code-club-demo-2.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
