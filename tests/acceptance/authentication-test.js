@@ -5,11 +5,13 @@ import {
 } from 'qunit';
 import startApp from 'code-club/tests/helpers/start-app';
 
-var application;
+let application;
+let firebase;
 
 module('Acceptance: Authentication', {
   beforeEach: function() {
-    application = startApp();
+    firebase = new MockFirebase();
+    application = startApp({ firebase });
   },
 
   afterEach: function() {
