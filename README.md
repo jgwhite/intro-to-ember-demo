@@ -2,8 +2,6 @@
 
 Hello!
 
-I’d like to say thank you to Anji, Barry and Nicola for inviting me to come here and speak to you today and to all of you for attending. I hope you get something useful from it.
-
 My name is Jamie and I co-run Ember London. We host monthly meetups and project nights here in town. Our focus is Ember but really Ember is so entwined with everything happening on the web platform right now that we can’t help but cover other topics. Things like:
 
 - Accessibility
